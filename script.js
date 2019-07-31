@@ -119,6 +119,7 @@ const buttonLink ={
 // Div
 const mainDiv = document.createElement('div');
 document.body.append(mainDiv);
+
  
   
     for (let i = 0; i < bookTitles.length; i++) {
@@ -166,6 +167,8 @@ document.body.append(mainDiv);
     document.body.append(footerDiv);
     let container = document.getElementsByClassName('container-fluid');
     footerDiv.appendChild(container);
+
+    
 
 
 
